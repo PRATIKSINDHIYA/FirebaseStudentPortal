@@ -128,7 +128,3 @@ Feel free to fork the repository and submit pull requests for any improvements! 
 ---
 
 **Thank you for checking out FirebaseStudentPortal!** 🎉
-
----
-
-You can now use this updated README with your GitHub repository. Let me know if you need further adjustments!
