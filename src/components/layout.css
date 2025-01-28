@@ -1,0 +1,108 @@
+/* layout.css */
+
+/* Layout Container */
+.layout-container {
+  display: flex;
+}
+
+.full-height {
+  height: 100vh;
+}
+
+/* Sidebar */
+.sidebar-width {
+  width: 16rem; /* Adjust as necessary */
+}
+
+.sidebar-bg {
+  background-color: #1f2937;
+}
+
+.text-white {
+  color: #ffffff;
+}
+
+.padding-6 {
+  padding: 1.5rem;
+}
+
+.margin-bottom-8 {
+  margin-bottom: 2rem;
+}
+
+/* Sidebar Header */
+.header {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  margin-bottom: 2rem;
+}
+
+.title {
+  font-size: 1.25rem;
+  font-weight: bold;
+}
+
+/* Sidebar Navigation */
+.nav-space > * + * {
+  margin-top: 0.5rem;
+}
+
+.nav-btn {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  width: 100%;
+  padding: 0.5rem;
+  border-radius: 0.375rem;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.2s ease-in-out;
+}
+
+.nav-btn:hover {
+  background-color: #374151;
+}
+
+/* Main Content */
+.main-content {
+  flex-grow: 1;
+}
+
+.overflow-auto {
+  overflow: auto;
+}
+
+.bg-light {
+  background-color: #f3f4f6;
+}
+
+.padding-8 {
+  padding: 2rem;
+}
+
+/* Icons */
+.icon-large {
+  width: 2rem;
+  height: 2rem;
+}
+
+.icon-small {
+  width: 1.25rem;
+  height: 1.25rem;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .sidebar-width {
+    width: 12rem;
+  }
+
+  .padding-8 {
+    padding: 1rem;
+  }
+
+  .full-height {
+    height: auto;
+  }
+}
