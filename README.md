@@ -1,3 +1,5 @@
+
+
 # 📚 *FirebaseStudentPortal* 🎓
 
 Welcome to *FirebaseStudentPortal*, a web application for managing students with Firebase authentication and Firestore database integration. This app allows you to log in, view and manage students' information, and perform CRUD (Create, Read, Update, Delete) operations.
